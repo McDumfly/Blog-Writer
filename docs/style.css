@@ -1,0 +1,79 @@
+.def {
+    font-size: 16px;
+    font-family: arial;
+}
+
+.h1 {
+    font-size: 32px;
+}
+
+.h2 {
+    font-size: 27px;
+}
+
+.h3 {
+    font-size: 18.72px;
+}
+
+.h4 {
+    font-size: 16px;
+}
+
+.h5 {
+    font-size: 13.28px;
+}
+
+.h6 {
+    font-size: 10.72px;
+}
+
+.arial {
+    font-family: arial;
+}
+
+.consolas {
+    font-family: consolas;
+}
+
+.verdana {
+    font-family: verdana;
+}
+
+.bookman {
+    font-family: bookman;
+}
+
+.helvetecia {
+    font-family: helvetecia;
+}
+
+.comicSans {
+    font-family: comic sans;
+}
+
+.inkFree {
+    font-family: ink free;
+}
+
+.btext {
+    width: 200px;
+    height: 60px;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.i {
+    font-style: italic;
+}
+
+.selectedBtn {
+    background-color: black;
+    color: rgb(239, 239, 293);
+}
+
+.defBtn {
+    background-color: rgb(239, 239, 293);
+    color: black;
+}

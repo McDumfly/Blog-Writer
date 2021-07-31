@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog writer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <select id="headers">
+        <option value="16px" class="h4">Normal</option>
+        <option value="32px" class="h1">Header 1</option>
+        <option value="27px" class="h2">Header 2</option>
+        <option value="18.72px" class="h3">Header 3</option>
+        <option value="16px" class="h4">Header 4</option>
+        <option value="13.28px" class="h5">Header 5</option>
+        <option value="10.72px" class="h6">Header 6</option>
+    </select>
+    <select id="fontFamily">
+        <option value="Arial" class="arial">Arial</option>
+        <option value="Consolas" class="consolas">Consolas</option>
+        <option value="Verdana" class="verdana">Verdana</option>
+        <option value="Bookman" class="bookman">Bookman</option>
+        <option value="Helvetecia" class="helvetecia">Helvetecia</option>
+        <option value="Comic Sans" class="comicSans">Comic Sans</option>
+        <option value="Ink Free" class="inkFree">Ink Free</option>
+    </select>
+    <input type="color" id="textColor" title="Font color">
+    <input type="color" id="bgColor" title="Background color" value="#ffffff">
+    <button id="saveButton" onclick="save()">Save</button>
+    <button onclick="copy()">Copy</button>
+    <button onclick="clearBT()">Clear</button>
+    <button onclick="delText()">Delete</button>
+    <button onclick="addDiv()">-</button>
+    <button onclick="setDef()">Set default</button>
+    <button onclick="addImg()">Add image</button>
+    <button onclick="addLink()">Add link</button><input type="checkbox" id="oinw" title="Open in new tab">
+    <button onclick="setBoldOn()" class="b defBtn" id="boldBtn">B</button>
+    <button onclick="setItalicOn()" class="i defBtn" id="italicBtn">I</button>
+    <button onclick="addBr()">↵</button>
+    <button onclick="getLastBgCode()">Get last blog code</button>
+    <hr>
+    <textarea type="text" id="bText" class="btext" placeholder="Blog text" onchange="save()"></textarea>
+    <hr>
+    <textarea type="text" id="output" placeholder="Output"></textarea>
+    <hr>
+    <div id="preview"></div>
+</body>
+<script src="script.js"></script>
+</html>
